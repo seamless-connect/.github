@@ -30,9 +30,9 @@ Seamless Connect uses existing open standards wherever they cover the use case, 
 
 ## Integration guides
 
-- [Service Provider Integration Checklist](https://github.com/seamlessdns/docs/blob/main/service-provider-integration-checklist.md)
-- [DNS Provider Integration Checklist](https://github.com/seamlessdns/docs/blob/main/dns-provider-integration-checklist.md)
-- [Registrar Integration Checklist](https://github.com/seamlessdns/docs/blob/main/registrar-integration-checklist.md)
+- [Service Provider Integration Checklist](https://github.com/seamless-connect/docs/blob/main/integration-checklists/service-provider-integration-checklist.md)
+- [DNS Provider Integration Checklist](https://github.com/seamless-connect/docs/blob/main/integration-checklists/dns-provider-integration-checklist.md)
+- [Registrar Integration Checklist](https://github.com/seamless-connect/docs/blob/main/integration-checklists/registrar-integration-checklist.md)
 
 ## Agentic operations
 
