@@ -1,6 +1,12 @@
-# Seamless
+# Seamless Connect
 
-Open infrastructure for secure, interoperable connections across services, domains, providers, and agents.
+## Open Infrastructure for Domain Operations and Agent Bootstrapping
+
+Seamless Connect is an open-source, cross-provider developer CLI for discrete, authorized domain operations and agent bootstrapping. It is maintained as a core Internet utility under nonprofit administration.
+
+Early industry participation includes Name.com (Identity Digital), Cloudflare, and DigiCert. Name.com (Identity Digital) is the founding sponsor; Cloudflare and DigiCert are founding contributors.
+
+[Use Cases & Protocols](https://seamlessconnect.org/use-cases/) · [Canonical project description](https://github.com/seamless-connect/.github/blob/main/PROJECT-DESCRIPTION.md)
 
 [Website](https://seamlessconnect.org/) · [Sponsorship](https://seamlessconnect.org/sponsors/)
 
@@ -10,19 +16,21 @@ Seamless Connect is a public-benefit, open-source project, with nonprofit govern
 
 Connecting a service still requires too many manual steps, proprietary integrations, and provider-specific workflows. That fragmentation creates cost, support burden, security risk, and lock-in for service platforms, infrastructure providers, developers, and users.
 
-Seamless is building a neutral connection layer that makes configuration, discovery, and verification open, reliable, and auditable. The project begins with domain and DNS configuration, but its scope is intentionally broader: the same open approach can support non-DNS connections between services and across the emerging agentic web.
+Seamless Connect provides a common developer interface for discrete, authorized domain operations and agent bootstrapping, including proposed DNS-based and non-DNS discovery publication workflows.
 
 ## Initial focus: domain operations
 
-The core maintainers of [Domain Connect](https://www.domainconnect.org/) have joined Seamless. The project is initially focused on operationalizing Domain Connect as broadly usable infrastructure while the [IETF DCONN Working Group](https://datatracker.ietf.org/wg/dconn/about/) advances the protocol on the standards track.
+The core maintainers of [Domain Connect](https://www.domainconnect.org/) have joined Seamless Connect. The project is initially focused on operationalizing Domain Connect as broadly usable infrastructure while the [IETF DCONN Working Group](https://datatracker.ietf.org/wg/dconn/about/) advances the protocol on the standards track.
 
 Service Providers can send the same Domain Connect request they use today through Seamless Connect to a supported DNS Provider:
 
 **Domain Connect request → Seamless Connect → supported DNS Provider**
 
-Seamless Connect handles provider discovery; template retrieval, validation, and approval; provider capability and policy evaluation; Domain Owner authorization; provider-specific execution; synchronous and asynchronous operation handling; retries and durable state; outcome verification; and normalized completion and status. This gives Service Providers a consistent integration while allowing DNS Providers to retain their own APIs, policies, and authorization models.
+The Domain Connect workflow is designed to handle provider discovery; template retrieval, validation, and approval; provider capability and policy evaluation; Domain Owner authorization; provider-specific execution; synchronous and asynchronous operation handling; retries and durable state; outcome verification; and normalized completion and status. This gives Service Providers a consistent integration while allowing DNS Providers to retain their own APIs, policies, and authorization models.
 
-The work is delivered as neutral hosted infrastructure with open APIs, SDKs, command-line tooling, shared validation and conformance tools, documentation, examples, and reusable onboarding assets.
+The CLI is the primary developer interface. Supporting service infrastructure, APIs, SDKs, shared validation and conformance tools, documentation, examples, and reusable onboarding assets support that interface.
+
+The initial focus is DNS configuration through Domain Connect. DNSSEC, Primary / Secondary DNS, Domain Registration, and Agent Bootstrapping describe planned or developing workflows; availability depends on the operation and participating provider integrations. Industry participation does not imply implemented integrations.
 
 ## Standards first
 
@@ -36,7 +44,7 @@ Seamless Connect uses existing open standards wherever they cover the use case, 
 
 ## Agentic operations
 
-Agentic support means that agents can initiate and monitor the same explicit, authorized, deterministic operations available to other clients. Seamless Connect provides durable coordination for asynchronous and multi-provider workflows, including state, retries, verification, and normalized status.
+Agentic support means that agents can initiate and monitor the same explicit, authorized, deterministic operations available to other clients. The supporting service is designed to provide durable coordination for asynchronous and multi-provider workflows, including state, retries, verification, and normalized status.
 
 Over time, the same standards-first approach can support broader connections between services and agents without requiring those connections to be DNS-based. This is a central area of collaboration with the Foundation for Agentic Networks and its work on an open, interoperable agentic web.
 
@@ -54,7 +62,7 @@ Connections should be:
 
 ## Get involved
 
-Seamless is forming its launch community and welcomes:
+Seamless Connect is forming its launch community and welcomes:
 
 - service platforms, DNS providers, registrars, and infrastructure vendors
 - agentic-web projects, researchers, and standards participants
