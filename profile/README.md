@@ -1,10 +1,10 @@
 # Seamless Connect
 
-## Open Infrastructure for Domain Operations and Agent Bootstrapping
+## Open Infrastructure for Cross-Provider Internet Operations
 
-Seamless Connect is an open-source, cross-provider developer CLI for discrete, authorized domain operations and agent bootstrapping. It is maintained as a core Internet utility under nonprofit administration.
+Seamless Connect is an open-source, nonprofit infrastructure project providing a neutral coordination layer between service providers, DNS providers, and registrars, initially focused on DNS configuration through Domain Connect.
 
-Early industry participation includes Name.com (Identity Digital), Cloudflare, and DigiCert. Name.com (Identity Digital) is the founding sponsor; Cloudflare and DigiCert are founding contributors.
+Early industry participation includes Name.com (Identity Digital), Cloudflare, DigiCert, Datum.net, and Cloud 66. Name.com (Identity Digital) is the founding sponsor; Cloudflare, DigiCert, Datum.net, and Cloud 66 are founding contributors.
 
 [Use Cases & Protocols](https://seamlessconnect.org/use-cases/) · [Canonical project description](https://github.com/seamless-connect/.github/blob/main/PROJECT-DESCRIPTION.md)
 
@@ -16,7 +16,7 @@ Seamless Connect is a public-benefit, open-source project, with nonprofit govern
 
 Connecting a service still requires too many manual steps, proprietary integrations, and provider-specific workflows. That fragmentation creates cost, support burden, security risk, and lock-in for service platforms, infrastructure providers, developers, and users.
 
-Seamless Connect provides a common developer interface for discrete, authorized domain operations and agent bootstrapping, including proposed DNS-based and non-DNS discovery publication workflows.
+The aim is to let participating providers integrate once to reach a broader ecosystem, reducing the need to build and maintain individual integrations with every counterpart.
 
 ## Initial focus: domain operations
 
@@ -28,7 +28,7 @@ Service Providers can send the same Domain Connect request they use today throug
 
 The Domain Connect workflow is designed to handle provider discovery; template retrieval, validation, and approval; provider capability and policy evaluation; Domain Owner authorization; provider-specific execution; synchronous and asynchronous operation handling; retries and durable state; outcome verification; and normalized completion and status. This gives Service Providers a consistent integration while allowing DNS Providers to retain their own APIs, policies, and authorization models.
 
-The CLI is the primary developer interface. Supporting service infrastructure, APIs, SDKs, shared validation and conformance tools, documentation, examples, and reusable onboarding assets support that interface.
+Participating provider workflows and programmatic interfaces, including APIs, CLIs, and authorized software agents, are ways to access the coordination service. These interfaces support its cross-provider mission; emerging agentic applications extend that mission.
 
 The initial focus is DNS configuration through Domain Connect. DNSSEC, Primary / Secondary DNS, Domain Registration, and Agent Bootstrapping describe planned or developing workflows; availability depends on the operation and participating provider integrations. Industry participation does not imply implemented integrations.
 
@@ -69,7 +69,7 @@ Seamless Connect is forming its launch community and welcomes:
 - open-source maintainers and technical contributors
 - member organizations, sponsors, and design partners
 
-Technical participation is open and independent of sponsorship. Visit [seamlessconnect.org](https://seamlessconnect.org/), review the [sponsorship program](https://seamlessconnect.org/sponsors/), or explore the repositories in this organization to participate.
+Sponsors can contribute financially through [Linux Foundation crowdfunding](https://crowdfunding.linuxfoundation.org/initiatives/seamless-connect). FAN continues to provide nonprofit administration and is also an avenue for supporting academic research and development. Technical participation is open and independent of sponsorship. Visit [seamlessconnect.org](https://seamlessconnect.org/), review the [sponsorship program](https://seamlessconnect.org/sponsors/), or explore the repositories in this organization to participate.
 
 ## License
 
