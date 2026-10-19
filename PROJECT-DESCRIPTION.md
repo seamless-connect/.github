@@ -1,8 +1,12 @@
 # Seamless Connect
 
-## Open Infrastructure for Domain Operations and Agent Bootstrapping
+## Open Infrastructure for Cross-Provider Internet Operations
 
-Seamless Connect is an open-source, cross-provider developer CLI for discrete, authorized domain operations and agent bootstrapping. It is maintained as a core Internet utility under nonprofit administration.
+Seamless Connect is an open-source, nonprofit infrastructure project that makes it easier for independently operated Internet services to work together.
+
+Starting with domain and DNS operations, Seamless Connect provides a neutral coordination layer between service providers, DNS providers, and registrars. The aim is to let participating providers integrate once to reach a broader ecosystem, reducing the need to build and maintain individual integrations with every counterpart.
+
+The initial focus is simplifying DNS configuration through Domain Connect. Participating provider workflows and programmatic interfaces, including APIs, CLIs, and authorized software agents, are ways to access the coordination service. These interfaces support its cross-provider mission; emerging agentic applications extend that mission.
 
 Early industry participation includes Name.com (Identity Digital), Cloudflare, and DigiCert.
 
